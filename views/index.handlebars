@@ -1,0 +1,22 @@
+<section class="py-2">
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <h1 class="display-3 mt-3 pt-5">CBS Original Series</h1>
+            <p class="lead">Buy original cbs series from as low as $1 dollar</p>
+            <form action="/charge" method="POST">
+                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    data-key="pk_test_ou58AFmRKbZjk9H0hupNyPNG" data-amount="900" data-name="CBS Original Series"
+                    data-description="cbs tv series" data-image="/img/marketplace.png" data-locale=""></script>
+                <script>
+                    //hide default stripe btn
+                    document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+                </script>
+                <button type="submit" class="btn btn-outline-dark text-white btn-lg">Purchase for $9</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <img src="/img/movie.jpg" alt="logo" class="img-fluid">
+            <p class="lead ml-5">48 hours sn12</p>
+        </div>
+    </div>
+</section>
