@@ -4,8 +4,8 @@ checkout payment with stripe api using nodejs
 install dependencies
 npm install
 
-$nodemon or npm start
-$Visit localhost port 5000
+# nodemon or npm start
+# Visit localhost port 5000
 
 
 # Stripe
